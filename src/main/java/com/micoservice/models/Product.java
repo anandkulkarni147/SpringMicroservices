@@ -11,5 +11,8 @@ package com.micoservice.models;
  */
 public class Product {
     private Long productID;
-    
+    private String productName;
+    private String productDescription;
+    private Double productPrice;
+    private boolean productStock;
 }
